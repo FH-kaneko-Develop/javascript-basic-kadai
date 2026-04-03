@@ -1,5 +1,5 @@
 // 2024年10月12日をDateクラスで作成（※月は0始まりなので10月=9）
-const targetDate = new Date(2024, 9, 12);
+const targetDate = new Date();
 
 // Dateクラスのメソッドで年・月・日を取得
 const year = targetDate.getFullYear();
