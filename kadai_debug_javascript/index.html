@@ -122,6 +122,7 @@
 
         // アラートを開始する関数
         function startAlert() {
+            isPaused = false;
             alertInterval = setInterval(() => {
                 document.body.style.backgroundColor = document.body.style.backgroundColor === 'red' ? 'white' : 'red';
             }, 1000);
